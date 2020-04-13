@@ -9,7 +9,9 @@ app.on('ready', () => {
   tray = new Tray(favicon);
   const contextMenu = Menu.buildFromTemplate([
     { label: 'Item2', type: 'radio', click:  () => {tray.setImage(favicon_full);} },
-    { label: 'Item3', type: 'radio', checked: true, click:  () => {tray.setImage(favicon);}  }
+    { label: 'Item3', type: 'radio', checked: true, click:  () => {tray.setImage(favicon);}  },
+	{type:'separator'},
+	{ label: 'Quit', click() { app.quit() }  }
   ])
   tray.setToolTip('Это мое приложение.')
   tray.setContextMenu(contextMenu);
