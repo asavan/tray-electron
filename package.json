@@ -1,0 +1,22 @@
+{
+  "name": "tray-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "asavan",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^8.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asavan/tray-electron.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asavan/tray-electron/issues"
+  },
+  "homepage": "https://github.com/asavan/tray-electron#readme",
+  "description": ""
+}
