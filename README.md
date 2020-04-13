@@ -15,3 +15,11 @@ build
 ```shell
 electron-packager . trayapp
 ```
+or
+```shell
+.\node_modules\.bin\electron-builder --dir
+```
+or
+```shell
+.\node_modules\.bin\electron-builder
+```
