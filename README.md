@@ -13,5 +13,5 @@ npm start
 
 build
 ```shell
-electron-packager ../ trayapp --platform=win32 --arch=x64
+electron-packager . trayapp
 ```
