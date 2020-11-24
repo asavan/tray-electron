@@ -5,7 +5,7 @@
   "author": "asavan",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . trayapp" 
+    "build": "electron-packager . trayapp"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/asavan/tray-electron#readme",
   "description": "tray example app",
   "devDependencies": {
-    "electron": "^9.1.0",
+    "electron": "^11.0.3",
     "electron-packager": "^15.0.0"
-  }
+  },
+  "dependencies": {}
 }
