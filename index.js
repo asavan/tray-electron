@@ -4,16 +4,16 @@ const path = require('path');
 const favicon = path.resolve(__dirname, 'favicon.ico');
 const favicon_full = path.resolve(__dirname, 'favicon_full.ico');
 
-let tray = null
+let tray = null;
 app.on('ready', () => {
-  tray = new Tray(favicon);
-  const contextMenu = Menu.buildFromTemplate([
-    { label: 'Item2', type: 'radio', click:  () => {tray.setImage(favicon_full);} },
-    { label: 'Item3', type: 'radio', checked: true, click:  () => {tray.setImage(favicon);}  },
-	{type:'separator'},
-	{ label: 'Quit', click() { app.quit() }  }
-  ])
-  tray.setToolTip('Это мое приложение.')
-  tray.setContextMenu(contextMenu);
+    tray = new Tray(favicon);
+    const contextMenu = Menu.buildFromTemplate([
+        { label: 'Item2', type: 'radio', click:  () => {tray.setImage(favicon_full);} },
+        { label: 'Item3', type: 'radio', checked: true, click:  () => {tray.setImage(favicon);}  },
+        {type:'separator'},
+        { label: 'Quit', click() { app.quit(); }  }
+    ]);
+    tray.setToolTip('Это мое приложение.');
+    tray.setContextMenu(contextMenu);
   
 });
