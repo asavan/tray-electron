@@ -1,11 +1,13 @@
 {
   "name": "tray-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "author": "asavan",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . trayapp"
+    "build": "electron-packager . trayapp",
+    "updates": "npx ncu",
+    "updates:fix": "npx ncu -u && npm install"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,8 @@
   "homepage": "https://github.com/asavan/tray-electron#readme",
   "description": "tray example app",
   "devDependencies": {
-    "electron": "^26.2.2",
+    "electron": "^32.1.2",
     "electron-packager": "^17.1.2",
-    "npm-check-updates": "^16.14.4"
+    "npm-check-updates": "^17.1.3"
   }
 }
