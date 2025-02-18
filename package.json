@@ -20,8 +20,8 @@
   "homepage": "https://github.com/asavan/tray-electron#readme",
   "description": "tray example app",
   "devDependencies": {
-    "electron": "^32.1.2",
+    "electron": "^34.2.0",
     "electron-packager": "^17.1.2",
-    "npm-check-updates": "^17.1.3"
+    "npm-check-updates": "^17.1.14"
   }
 }
