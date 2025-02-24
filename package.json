@@ -22,6 +22,6 @@
   "devDependencies": {
     "electron": "^34.2.0",
     "electron-packager": "^17.1.2",
-    "npm-check-updates": "^17.1.14"
+    "npm-check-updates": "^17.1.15"
   }
 }
