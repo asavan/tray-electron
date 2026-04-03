@@ -1,3 +1,5 @@
 node_modules
 trayapp-win32-x64
 package-lock.json
+.idea
+

@@ -1,8 +1,9 @@
 {
   "name": "tray-app",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "asavan",
+  "type": "module",
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . trayapp",
@@ -20,8 +21,8 @@
   "homepage": "https://github.com/asavan/tray-electron#readme",
   "description": "tray example app",
   "devDependencies": {
-    "electron": "^34.2.0",
+    "electron": "^41.1.1",
     "electron-packager": "^17.1.2",
-    "npm-check-updates": "^17.1.15"
+    "npm-check-updates": "^20.0.0"
   }
 }
